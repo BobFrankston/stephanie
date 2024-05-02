@@ -1,0 +1,19 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/greenlock-express": "^4.0.3",
+    "@types/node": "^20.12.5",
+    "esm": "^3.2.25",
+    "greenlock-express": "^4.0.3"
+  }
+}

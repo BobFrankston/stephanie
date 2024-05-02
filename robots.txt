@@ -1,0 +1,7 @@
+# *** UNTIL WE SWITCH TO BEING OFFICIAL
+
+# See http://info.webcrawler.com/mak/projects/robots/robots.html
+# See http://info.webcrawler.com/mak/projects/robots/norobots.html
+# go away
+User-agent: *
+Disallow: /

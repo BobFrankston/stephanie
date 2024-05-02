@@ -1,0 +1,125 @@
+ :root {
+     --backcolor: #3c4c86;
+ }
+
+ body {
+     background-color: var(--backcolor);
+     font-family: Verdana, Geneva, Tahoma, Arial, sans-serif;
+ }
+
+ .header,
+ .header img {
+     font-family: pacifico;
+     text-align: center;
+     color: white;
+     margin: 0 auto;
+ }
+
+ .navigation {
+     padding: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-weight: bold;
+     background-color: var(--backcolor);
+ }
+
+ .navigation a {
+     margin-right: 10px;
+     color: white;
+     /* text-decoration: none; */
+ }
+
+ .navigation a:hover {
+     color: red;
+ }
+
+ .content {
+     margin: 20px auto;
+     padding: 20px;
+     /* color: white; */
+     max-width: 8in;
+     /* min-width: 5in; */
+     background-color: rgb(251, 250, 249);
+     font: black;
+     /* margin: 5px; */
+ }
+
+ .visage {
+     float: right;
+     margin-top: 90px;
+     width: 300;
+     height: 407;
+ }
+
+ .director {
+     color: blue;
+     cursor: pointer;
+ }
+
+ .dirmap {
+     border: 0;
+ }
+
+ #wpgmza_map {
+     display: block;
+     overflow: auto;
+     width: 400px;
+     height: 250px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+ }
+
+ /* For the table */
+ /* style.css */
+ .custom-table {
+     border-collapse: collapse;
+     /* border: 2px solid black; */
+     /* Adds a box around the table */
+ }
+
+ .custom-table td {
+     padding: 1px 4px;
+     /* Adjust padding as needed */
+ }
+
+ .custom-table th {
+     font-weight: bold;
+     /* Makes left column headers bold */
+     font-size: medium;
+     text-align: left;
+ }
+
+ .ed-title {
+     font-size: 1.0em;
+     font-style: italic;
+     font-weight: 300;
+ }
+
+ .content-head,
+ .content-phone {
+     color: #3c4c86;
+     font-size: 1.17em;
+ }
+
+ .hide {
+     display: none;
+ }
+
+#site-info {
+    text-align: center;
+    color: white;
+    background-color: var(--backcolor);
+    padding: 10px;
+    font-size: 0.8em;
+
+}
+
+ @media (max-width: 5in) {
+     .visage {
+         width: 25%;
+         height: 25%
+     }
+ }
