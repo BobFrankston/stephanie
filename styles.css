@@ -22,7 +22,6 @@
      align-items: center;
      color: white;
      font-weight: bold;
-     background-color: var(--backcolor);
  }
 
  .navigation a {
@@ -38,8 +37,10 @@
  .content {
      margin: 20px auto;
      padding: 20px;
-     /* color: white; */
-     max-width: 8in;
+     margin: auto;
+     line-height: 1.5;
+     max-width: 920px;
+     /* Match header Image */
      /* min-width: 5in; */
      background-color: rgb(251, 250, 249);
      font: black;
@@ -108,14 +109,14 @@
      display: none;
  }
 
-#site-info {
-    text-align: center;
-    color: white;
-    background-color: var(--backcolor);
-    padding: 10px;
-    font-size: 0.8em;
+ #site-info {
+     text-align: center;
+     color: white;
+     background-color: var(--backcolor);
+     padding: 10px;
+     font-size: 0.8em;
 
-}
+ }
 
  @media (max-width: 5in) {
      .visage {
